@@ -43,7 +43,7 @@ const myBirthYear = 1980;
 /*
 06 - Declare uma const "currentYear", que recebe o ano atual, com 4 dígitos.
 */
-
+const currentYear = 2024;
 
 
 /*
