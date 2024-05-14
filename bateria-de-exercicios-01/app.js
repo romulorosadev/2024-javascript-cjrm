@@ -27,7 +27,6 @@ exercícios. Inclusive o alert mencionado acima.
 //alert("JS is Awesome!");
 
 
-
 /*
 04 - Comente o alert que você escreveu acima, utilizando o comentário de uma linha.
 */
@@ -38,7 +37,7 @@ exercícios. Inclusive o alert mencionado acima.
 05 - Declare uma const "myBirthYear", que recebe o ano do seu nascimento, com 4
 dígitos. Ex.: 1930.
 */
-
+const myBirthYear = 1980;
 
 
 /*
