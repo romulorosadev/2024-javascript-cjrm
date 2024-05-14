@@ -63,6 +63,8 @@ acontece.
 
 - Exiba a "myAge" no console.
 */
+const myAge = currentYear - myBirthYear;
+console.log(myAge);
 
 
 
