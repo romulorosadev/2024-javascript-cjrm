@@ -1,8 +1,6 @@
 /*
 01 - Neste diretório (exercicio-01), há um index.html vazio.
-
 Faça o seguinte:
-
 - Declare uma marcação HTML básica nele;
 - Modifique a linguagem para português do Brasil;
 - Remova as meta tags desnecessárias;
@@ -10,16 +8,18 @@ Faça o seguinte:
 - E linke este arquivo, app.js, antes do fechamento da tag body.
 */
 
+
+
 /*
 02 - Inicie o seu servidor local e abra o console do browser.
 */
 
-/*
-03 - Para certificar-se que este arquivo realmente está linkado, exiba a frase
-"JS is Awesome!" em um alert no browser.
 
-Como mencionei durante a aula: não se preocupe em entender 100% o que os comandos
-"alert" e "console" fazem. Nós falaremos sobre eles mais à frente =)
+
+/*
+03 - Para certificar-se que este arquivo realmente está linkado, exiba a frase "JS is Awesome!" em um alert no browser.
+
+Como mencionei durante a aula: não se preocupe em entender 100% o que os comandos "alert" e "console" fazem. Nós falaremos sobre eles mais à frente =)
 
 Utilize os espaços entre os comentários abaixo para executar os códigos dos
 exercícios. Inclusive o alert mencionado acima.
@@ -34,10 +34,10 @@ exercícios. Inclusive o alert mencionado acima.
 
 
 /*
-05 - Declare uma const "myBirthYear", que recebe o ano do seu nascimento, com 4
-dígitos. Ex.: 1930.
+05 - Declare uma const "myBirthYear", que recebe o ano do seu nascimento, com 4 dígitos. Ex.: 1930.
 */
 const myBirthYear = 1980;
+
 
 
 /*
@@ -46,21 +46,18 @@ const myBirthYear = 1980;
 const currentYear = 2024;
 
 
+
 /*
 07 - Exiba as const "myBirthYear" e "currentYear", lado a lado, no console do browser.
 */
 console.log(myBirthYear, currentYear);
 
 
+
 /*
 08 - Experimente.
-
-- Declare uma const "myAge", que recebe o ano atual subtraído pelo ano do seu
-nascimento. Mas sem digitar os números manualmente.
-
-Você pode utilizar o sinal de menos (-) entre os dois valores e verificar o que
-acontece.
-
+- Declare uma const "myAge", que recebe o ano atual subtraído pelo ano do seu nascimento. Mas sem digitar os números manualmente.
+Você pode utilizar o sinal de menos (-) entre os dois valores e verificar o que acontece.
 - Exiba a "myAge" no console.
 */
 const myAge = currentYear - myBirthYear;
@@ -69,20 +66,21 @@ console.log(myAge);
 
 
 /*
-09 - Antes do console.log abaixo, declare uma const "ten", que recebe o número
-10 e:
-
+09 - Antes do console.log abaixo, declare uma const "ten", que recebe o número 10 e:
 - Descomente o console.log;
 - Substitua a palavra "valor1" pelo ano atual somado à 10;
 - Substitua a palavra "valor2" pela sua idade somada à 10;
 - Os números não devem ser digitados manualmente;
 - Observe o resultado no console do browser.
 
-Não se assuste com as crases e os cifrões. Conversaremos mais sobre operações
-matemáticas e strings (textos) em breve =)
+Não se assuste com as crases e os cifrões. Conversaremos mais sobre operações matemáticas e strings (textos) em breve =)
 */
+const ten = 10;
+const valor1 = currentYear + ten;
+const valor2 = myAge + ten;
+console.log(`Em ${valor1}, estarei com ${valor2} anos.`)
 
-// console.log(`Em ${valor1}, estarei com ${valor2} anos.`)
+
 
 /*
 10 - Abra o site abaixo no browser e faça o seguinte:
