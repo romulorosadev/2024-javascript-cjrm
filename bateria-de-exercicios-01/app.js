@@ -49,7 +49,7 @@ const currentYear = 2024;
 /*
 07 - Exiba as const "myBirthYear" e "currentYear", lado a lado, no console do browser.
 */
-
+console.log(myBirthYear, currentYear);
 
 
 /*
