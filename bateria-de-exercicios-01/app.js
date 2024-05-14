@@ -84,18 +84,15 @@ console.log(`Em ${valor1}, estarei com ${valor2} anos.`)
 
 /*
 10 - Abra o site abaixo no browser e faça o seguinte:
-
 http://whathappenedinmybirthyear.com/
 
 - Abra o console do devtools;
 - Provavelmente, haverão alguns warnings nele. Pressione ctrl + L para limpá-lo;
-- No console do devtools, declare uma const "myBirthYear" que recebe o ano em que
-você nasceu (4 dígitos) e pressione enter;
-- No final da 1ª linha do código abaixo, substitua SEU_ANO_DE_NASCIMENTO pelo uso
-da const myBirthYear;
-- Cole as duas linhas de código no console, pressione enter, feche o console e
-veja o que acontece.
-
-document.querySelector('#birthYear').value = SEU_ANO_DE_NASCIMENTO
-document.querySelector('.formButton').click()
+- No console do devtools, declare uma const "myBirthYear" que recebe o ano em que você nasceu (4 dígitos) e pressione enter;
+- No final da 1ª linha do código abaixo, substitua SEU_ANO_DE_NASCIMENTO pelo uso da const myBirthYear;
+- Cole as duas linhas de código no console, pressione enter, feche o console e veja o que acontece.
 */
+const myBirthYear = 1980;
+SEU_ANO_DE_NASCIMENTO = myBirthYear;
+document.querySelector('#birthYear').value = myBirthYear;
+document.querySelector('.formButton').click();
