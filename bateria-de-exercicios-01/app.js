@@ -15,15 +15,16 @@ Faça o seguinte:
 */
 
 /*
-03 - Para certificar-se que este arquivo realmente está linkado, exiba a frase  
+03 - Para certificar-se que este arquivo realmente está linkado, exiba a frase
 "JS is Awesome!" em um alert no browser.
 
-Como mencionei durante a aula: não se preocupe em entender 100% o que os comandos  
+Como mencionei durante a aula: não se preocupe em entender 100% o que os comandos
 "alert" e "console" fazem. Nós falaremos sobre eles mais à frente =)
 
-Utilize os espaços entre os comentários abaixo para executar os códigos dos 
+Utilize os espaços entre os comentários abaixo para executar os códigos dos
 exercícios. Inclusive o alert mencionado acima.
 */
+alert("JS is Awesome!");
 
 
 
@@ -32,7 +33,7 @@ exercícios. Inclusive o alert mencionado acima.
 */
 
 /*
-05 - Declare uma const "myBirthYear", que recebe o ano do seu nascimento, com 4  
+05 - Declare uma const "myBirthYear", que recebe o ano do seu nascimento, com 4
 dígitos. Ex.: 1930.
 */
 
@@ -53,11 +54,11 @@ dígitos. Ex.: 1930.
 /*
 08 - Experimente.
 
-- Declare uma const "myAge", que recebe o ano atual subtraído pelo ano do seu  
+- Declare uma const "myAge", que recebe o ano atual subtraído pelo ano do seu
 nascimento. Mas sem digitar os números manualmente.
 
-Você pode utilizar o sinal de menos (-) entre os dois valores e verificar o que  
-acontece. 
+Você pode utilizar o sinal de menos (-) entre os dois valores e verificar o que
+acontece.
 
 - Exiba a "myAge" no console.
 */
@@ -65,7 +66,7 @@ acontece.
 
 
 /*
-09 - Antes do console.log abaixo, declare uma const "ten", que recebe o número  
+09 - Antes do console.log abaixo, declare uma const "ten", que recebe o número
 10 e:
 
 - Descomente o console.log;
@@ -74,7 +75,7 @@ acontece.
 - Os números não devem ser digitados manualmente;
 - Observe o resultado no console do browser.
 
-Não se assuste com as crases e os cifrões. Conversaremos mais sobre operações  
+Não se assuste com as crases e os cifrões. Conversaremos mais sobre operações
 matemáticas e strings (textos) em breve =)
 */
 
@@ -87,11 +88,11 @@ http://whathappenedinmybirthyear.com/
 
 - Abra o console do devtools;
 - Provavelmente, haverão alguns warnings nele. Pressione ctrl + L para limpá-lo;
-- No console do devtools, declare uma const "myBirthYear" que recebe o ano em que  
+- No console do devtools, declare uma const "myBirthYear" que recebe o ano em que
 você nasceu (4 dígitos) e pressione enter;
-- No final da 1ª linha do código abaixo, substitua SEU_ANO_DE_NASCIMENTO pelo uso  
+- No final da 1ª linha do código abaixo, substitua SEU_ANO_DE_NASCIMENTO pelo uso
 da const myBirthYear;
-- Cole as duas linhas de código no console, pressione enter, feche o console e  
+- Cole as duas linhas de código no console, pressione enter, feche o console e
 veja o que acontece.
 
 document.querySelector('#birthYear').value = SEU_ANO_DE_NASCIMENTO
